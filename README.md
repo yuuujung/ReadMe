@@ -1,4 +1,5 @@
 git init // 레퍼지토리 초기화
+git add README.md
 
 git remote add origin github주소
 git remote -v 로 확인
@@ -9,4 +10,5 @@ git config --global user.email "dbwjd980611@naver.com"
 
 git add --all
 git commit -m "메세지 내용"
-git push origin
+git branch -M main
+git push -u origin main
